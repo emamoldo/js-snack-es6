@@ -31,10 +31,10 @@ const nameList = [
 ];
 
 
-nameList.forEach ((element) => {
-    if (age > 18){
-        console.log(`${element.name} può giudare perchè ha ${element.age}`);
+nameList.forEach ((item) => {
+    if (item.age >= 18){
+        console.log(`${item.name} può giudare perchè ha ${item.age}`);
     } else {
-        console.log(`${element.name} non può giudare perchè ha ${element.age}`);
+        console.log(`${item.name} non può giudare perchè ha ${item.age}`);
     }   
 });
